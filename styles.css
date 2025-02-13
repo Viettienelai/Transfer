@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+/* Container styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center text inside the container */
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center; /* Center text inside the section */
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+/* Text and file box styles */
+.text-box, .file-box {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    font-size: 16px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text inside the boxes */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px; /* Add margin to space out buttons */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Copy button styles */
+.copy-btn {
+    background-color: #008CBA;
+}
+
+.copy-btn:hover {
+    background-color: #007B9E;
+}
